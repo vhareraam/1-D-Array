@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+     int n,i,p,k;
+     cin>>n;
+     int a[n];
+     for(i=0;i<n;i++)
+     {
+         cin>>a[i];
+     }
+     cin>>p;
+     for(i=0;i<n;i++)
+     {
+        if(p==a[i]){
+            k=1;
+        }
+        
+     }
+     if(k==1)
+         {
+             cout<<p<<" is present in the array";
+         }
+         else
+         {
+            cout<<p<<" is not present in the array";
+         }
+     
+     
+}
